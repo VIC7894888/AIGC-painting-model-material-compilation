@@ -1,7 +1,7 @@
 import os
 
 # 设置工作目录，即包含要重命名文件的目录
-directory = r'\\192.168.90.90\建筑设计模型\训练数据\公共设施类别\School'
+directory = r'素材位置'
 
 # 遍历目录中的所有文件
 for filename in os.listdir(directory):

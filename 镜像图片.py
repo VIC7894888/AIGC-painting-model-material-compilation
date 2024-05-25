@@ -14,4 +14,4 @@ def batch_mirror_images(directory):
             mirrored_image.save(os.path.join(directory, "1" + filename))
 
 # Usage: Provide the correct directory path with escaped backslashes or use raw string literals
-batch_mirror_images(r'\\192.168.90.90\建筑设计模型\已整理数据  未打标\类型\Container')
+batch_mirror_images(r'素材')

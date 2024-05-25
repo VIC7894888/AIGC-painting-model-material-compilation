@@ -2,7 +2,7 @@ import os
 import shutil
 
 # 设置一级目录的路径
-root_dir = r"E:\建筑\补充素材\图片助手(ImageAssistant)_批量图片下载器\www.behance.net"
+root_dir = r"素材位置"
 
 for folder in os.listdir(root_dir):
     folder_path = os.path.join(root_dir, folder)

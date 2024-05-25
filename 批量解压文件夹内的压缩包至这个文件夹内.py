@@ -12,5 +12,5 @@ def unzip_all_in_folder(folder_path):
             unzip_all_in_folder(item_path)
 
 # 使用时指定要解压的文件夹路径
-folder_to_unzip = 'E:\建筑\补充素材\地标'
+folder_to_unzip = '素材'
 unzip_all_in_folder(folder_to_unzip)
